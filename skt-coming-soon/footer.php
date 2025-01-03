@@ -18,7 +18,14 @@ $footer_text = get_theme_mod('footer_text');
 	 		<?php echo esc_html($footer_text); ?>
 		<?php } else { ?>
 			<?php bloginfo('name'); ?> <?php esc_html_e('Theme By ','skt-coming-soon');?>            
-            <?php esc_html_e('SKT Themes','skt-coming-soon'); ?>
+            <?php if( is_home() && is_front_page() || is_home() || is_front_page()) {?>
+        <a href="<?php echo esc_url('https://www.sktthemes.org/shop/coming-soon-wordpress-theme');?>" target="_blank">
+        <?php esc_html_e('SKT Coming Soon','skt-coming-soon'); ?>
+        </a>
+        <?php } else {?>
+        <?php esc_html_e('SKT Coming Soon','skt-coming-soon'); ?>
+        <?php } ?>
+
         <?php } ?>
         </div>
      <div class="clear"></div>

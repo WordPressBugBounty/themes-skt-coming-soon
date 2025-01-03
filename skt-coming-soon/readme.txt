@@ -4,7 +4,7 @@ Contributors: sonalsinha21
 Requires at least: 5.0
 Requires PHP:  7.4
 Tested up to: 6.7
-Version: 1.6
+Version: 1.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 Tags:two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
@@ -54,6 +54,9 @@ License URL: http://www.gnu.org/licenses/gpl-2.0.html
 For any help you can mail us at support[at]sktthemes.com
 
 == Changelog ==
+= 1.7 =  
+*      Footer credentials tweaked and Compatibility check with WordPress version 6.7
+
 = 1.6 =  
 *      Removed footer link.
 

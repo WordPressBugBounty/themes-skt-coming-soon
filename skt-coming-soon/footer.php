@@ -18,7 +18,7 @@ $footer_text = get_theme_mod('footer_text');
 	 		<?php echo esc_html($footer_text); ?>
 		<?php } else { ?>
 			<?php bloginfo('name'); ?> <?php esc_html_e('Theme By ','skt-coming-soon');?>            
-            <a href="<?php echo esc_url('https://www.sktthemes.org/shop/coming-soon-wordpress-theme');?>" target="_blank">
+            <a href="<?php echo esc_url('https://www.sktthemes.org/shop/coming-soon-wordpress-theme/');?>" rel="nofollow noopener noreferrer" target="_blank">
         <?php esc_html_e('SKT Coming Soon','skt-coming-soon'); ?>
         </a>
 

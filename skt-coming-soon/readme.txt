@@ -2,8 +2,8 @@
 
 Contributors: sonalsinha21
 Requires PHP:  5.6
-Tested up to: 6.9
-Version: 2.1
+Tested up to: 7.1
+Version: 2.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 Tags:two-columns,right-sidebar,full-width-template,custom-background,custom-colors,custom-menu,sticky-post,theme-options,threaded-comments,featured-images,footer-widgets,translation-ready,rtl-language-support,custom-logo,editor-style,custom-header,blog,e-commerce,portfolio
@@ -27,6 +27,9 @@ Theme is built using the following resource bundles:
 	skt-coming-soon/images/template7-top-bg.jpg
 	skt-coming-soon/images/icon-skt-templates.png
 	skt-coming-soon/images/sktskill.jpg
+	skt-coming-soon/images/theme-info/bundle-notice.png
+	skt-coming-soon/images/theme-info/bundle-preview.jpg
+	skt-coming-soon/images/theme-info/menu-icon.svg
 		
 = 	Declaring these self designed images under GPL license version 2.0 =
 License URL: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,6 +56,9 @@ License URL: http://www.gnu.org/licenses/gpl-2.0.html
 For any help you can mail us at support[at]sktthemes.com
 
 == Changelog ==
+= 2.2 =  
+*      Added the Theme Dashboard menu and corrected the author.
+
 = 2.1 =  
 *      Author URL to be rectified.
 

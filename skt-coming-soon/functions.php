@@ -120,10 +120,6 @@ define('SKT_COMING_SOON_SKTTHEMES_THEMES','https://www.sktthemes.org/themes');
 define('SKT_COMING_SOON_SKTTHEMES_THEME_URI', trailingslashit( esc_url( get_template_directory_uri() ) ) );
 
 /**
- * Custom template for about theme.
- */
-require get_template_directory() . '/inc/about-themes.php';
-/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
@@ -202,6 +198,12 @@ if ( ! function_exists( 'skt_coming_soon_is_woocommerce_activated' ) ) {
 	function skt_coming_soon_is_woocommerce_activated() {
 		if ( class_exists( 'woocommerce' ) ) { return true; } else { return false; }
 	}
+}
+
+if ( is_admin()) {
+// THEME DASHBOARD (admin.php?page={theme-slug}-info)
+require_once get_template_directory() . '/advance/admin/theme-welcome.php'; // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
+require_once get_template_directory() . '/advance/admin/theme-info-page.php'; // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound	
 }
 
 /**
